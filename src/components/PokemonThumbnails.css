@@ -1,0 +1,61 @@
+/* PokemonThumbnail.css */
+.thumbnail-container {
+  border: 1px solid #3b3939;
+  border-radius: 8px;
+  padding: 26px;
+  margin: 10px;
+  text-align: center;
+  background-color: #f7f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.thumbnail-name {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.thumbnail-type {
+  color: #181717;
+  margin-top: 4px;
+}
+
+.thumbnail-type .rock {
+  background-color: rgb(148, 81, 81);
+}
+
+.type-grass {
+  background-color: #78c850; /* Grass type color */
+}
+.type-rock {
+  background-color: rgb(148, 81, 81);
+}
+.type-ghost {
+  background-color: rgb(247, 247, 247);
+}
+.type-electric {
+  background-color: rgb(255, 255, 161);
+}
+.type-bug {
+  background-color: #F6D6A7;
+}
+.type-poison {
+  background-color: #e0a7f6;
+}
+.type-normal {
+  background-color: #F4F4F4;
+}
+.type-fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.type-fire {
+  background-color: #f7b21e;
+}
+.type-water {
+  background-color:#E0F1FD;
+}
