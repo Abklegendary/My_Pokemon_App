@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './PokemonDetails.css'
 
 
@@ -38,6 +39,8 @@ const { name, image, types, species, sprites, height, weight, abilities, base_ex
        let Newweight = Number(newweight.toFixed(1))
     return (
       <div className='pokemon-details'>
+      <Link to={'/'}><button className='back-button' ><b>❰Go Back</b></button></Link>
+      
         <h1>Pokemon Details</h1> 
         {pokemon.sprites.other.dream_world.front_default && (
         <img
